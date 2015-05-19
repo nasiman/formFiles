@@ -2,15 +2,7 @@
     "elements": {
         "eligibilityReq": {"type":"label", "text":"Before you begin this application, please confirm eligibility\n\n- You are a Canadian resident and have a Canadian credit file\n(Note: if you do not have a Canadian credit file, additional steps may be required for eligibility)\n- You are of the age of majority in your province or territory of residence\n- In the past 7 years you have not filed for bankruptcy and do not have any seriously past due payments."},
         "name": {"type":"name", "options": {"format":"middle"}},
-        "birthDate": {"type":"date", "title":"Date of Birth", "format":"MM/DD/YYYY", "placeholder": "Date of birth", "range": {"startDate":-100, "endDate":-18}},
-        "personalAddress": {"type": "address", "title":"Home Address (Physical address, no. P.O. Boxes)", "options": {"format": "CA", "hookMode": "type"}},
-        "homeDateYear": {"type": "range", "title": "How long at your current address", "placeholder":"years", "values":"0-80", "display":"popover"},
-        "homeDateMonth": {"type": "range", "placeholder":"months", "values":"0-11", "display":"popover"},
-        "homeStatus": {"type": "select", "title":"Do you:", "values":[{"Own": "O"}, {"Rent": "R"}, {"Other": "B"}], "display":"single"},
-        "homeAmount": {"type": "number", "title":"Monthly housing payment:", "maxvalue": 22000, "minvalue": 0, "format":"double", "placeholder":"Monthly Housing Payment"},
-        "phone1":{"type":"text","title": "Home phone number:", "maxlength": 10, "minlength": 10, "placeholder":"Home Phone #", "validation":"^\(?[2-9]\d{2}[\)\.-]?\s?\d{3}[\s\.-]?\d{4}$"},
-        "copyAddress": {"type": "checkbox", "text": "Mailing Address same as Home Address"},
-        "mailingAddress": {"type": "address", "title":"Mailing Address (Only if ):", "options": {"format": "CA", "hookMode":"type", "required":false}}
+        "birthDate": {"type":"date", "title":"Date of Birth", "format":"MM/DD/YYYY", "placeholder": "Date of birth", "range": {"startDate":-100, "endDate":-18}}        
     },
 
     "layout": {
