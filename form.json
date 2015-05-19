@@ -1,4 +1,6 @@
-[
-    {"path":"path/to/file.json", "title": "Personal Info"},
-    {"path": "path/to/someotherSection.json", "title": "Another Section", "layout":"superKansas12"}
-]
+{
+	"sections":[
+    	{"path":"path/to/file.json", "title": "Personal Info"},
+    	{"path": "path/to/someotherSection.json", "title": "Another Section", "layout":"superKansas12"}
+	]
+}
