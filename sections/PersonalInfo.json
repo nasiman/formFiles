@@ -1,6 +1,6 @@
 {
     "elements": {
-        "eligibilityReq": {"type":"label", "text":"Before you begin this application, please confirm eligibility\n\n- You are a Canadian resident and have a Canadian credit file\n(Note: if you do not have a Canadian credit file, additional steps may be required for eligibility)\n- You are of the age of majority in your province or territory of residence\n- In the past 7 years you have not filed for bankruptcy and do not have any seriously past due payments."},
+        "eligibilityReq": {"type":"label", "text":"Yeah yeah yeah"},
         "name": {"type":"name", "options": {"format":"middle"}},
         "birthDate": {"type":"date", "title":"Date of Birth", "format":"MM/DD/YYYY", "placeholder": "Date of birth", "range": {"startDate":-100, "endDate":-18}}        
     },
